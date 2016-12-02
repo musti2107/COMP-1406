@@ -1,0 +1,35 @@
+total :  15-18 /20 
+
+
+COMP1006/1406 ~ Summer 2014 ~ Grading Rubric
+--------------------------------------------
+
+Assignment 07 [20 Marks]
+========================
+
+
+Problem 0 [0 marks]
+-------------------
+rubric07.txt
+
+
+Problem 1 [5 marks]
+-------------------
+Correctness {5 marks}
+  5/5  : works correctly
+  
+  
+Problem 2 [5 marks]
+--------------------
+Correctness {5 marks}
+  3-4/5  : works correctly
+   
+
+
+=============================
+Second part of the assignment
+
+Problem 3 [10 marks]
+--------------------
+Drawing {10 marks}
+  10/10 : related to COMP1006/1406 and you

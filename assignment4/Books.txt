@@ -1,0 +1,65 @@
+///**
+ COMP1006/1406 - Summer 2014
+ Assignment 4, Problem 3
+ 
+ name:Muhammad Mustafa
+ id:100823576
+ date:21/07/2014
+
+A stack of books is simply a pile of books, with one book on top of another.
+We are only allowed to move a single book at a time. If we want to add a book to a
+stack, we can only add it to the top of the stack. We say that we push a book onto the (top
+of the) stack. If we want to remove a book from the stack, we can only remove the book on
+the top of it. We say that we pop a book from the (top of the) stack. Also, when we want
+to know which book is on the top position, we'll use top to refer to it.  
+We will concisely describe how to solve the problems with the restriction that you can only push and pop books to dierent stacks and check what the top
+book is for different stacks.
+
+Example: You have three tables. One has a stack of books on it (with many books) and two
+         are empty. Describe how you would remove the bottom book from the stack of books while
+         leaving the rest of the stack unchanged (on the same table) when you are done.
+Answer: To remove the bottom book we rst need to remove all books above it. Let A be
+        the table with the original stack and let B and C the empty tables. We can do the following:
+         repeat until A has no books left
+         - pop the top book from A and push it to B
+         pop the top book from B and push it to C
+         repeat until B has no books left
+         - pop the top book from B and push it to A
+ 
+**///
+
+ANSWERS:
+
+a) The state of the last book on the first table (A) is that it is the last book in the pile.
+   The state of the last book  from the fisrt table (A) on the second table (B) is that it is the first book in the pile.
+   The state of the last book from table (A) on table (C) is that it is the only book on the table.
+   The state of the books back on the first table is that they are back in order, as the first from (B) becomes last on (A).
+   The state of the first book on (B) is that it is the last book on (A).
+
+b) # repeat until A has no books left.
+     - pop the top book from (A) and push it on to (B), stop everytime "Guy Kay" book appears to be on the top of pile on table B.
+   # repeat uptill no "Guy Kay"books left in pile B.
+     - pop the top "Guy Kay book from pile on table (B) and push it onto table (C).
+   # repeat until no books left on table B.
+     - pop the top book from table (B) and push it onto table (A).
+
+   The state of the first book on table (A) is that it is the last book on table (B).
+   The state of the "Guy Kay" from the fisrt table (A) on the second table (B) is that it is the first book in the pile.
+   The states of the "Guy Kay"books are that they are the only books on table (C)
+   The state of the books back on the first table (A) is that they are back in order, as the first from (B) becomes last on (A).
+   The state of the first book on (B) is that it is the last book on (A).
+
+   The books were popped a total of (n X 2) times.
+
+c) # repeat until A has no books left.
+     - pop the top book from (A) and push it on to (B).
+   # repeat until B has no books left.
+     - pop the top from (B) and push it onto (C).
+   # repeat until no books left on table C.
+     - pop the top book from table (C) and push it onto table (A). Now the arrangement is reversed as the Last book on (C) is now the first book on (A).
+
+   The state of the the first book on (A) is that it is the last book on (B).
+   The state of the first book on (B) is that it is the last book on (C).
+   The state of the first book on (C) is that it is the last book on (A). And the arrangement is reversed.
+
+   The books were pushed a total of (n X 3) times.

@@ -1,0 +1,83 @@
+import java.awt.Canvas;
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.Graphics2D;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+import java.awt.image.BufferStrategy;
+import java.util.ArrayList;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class CaptureTheFlag{
+  
+  public static void main(String[] args){
+    Field f = new Field();
+    
+    // create a bunch of players for both teams 
+    // (they all have the same name and number for now....)
+    Player p,q;
+    
+    int NUM_PLAYERS = 25;
+    
+    for(int i=0; i<NUM_PLAYERS; i+=1){
+      // create a player and r`egister them with territory 1
+              
+              p = new RandomWalkerPlayer("Cat van Kittenish", 12, "blues", 'b', (int) (Math.random()*400)+10,(int) (Math.random()*500+10));
+              f.registerPlayer(p, 1);
+      
+      
+            // create a player and register them with territory 2
+    
+    }
+       // p = new SeekerPlayer("Cat van Kittenish", 12, "blues", 'b', (int) (Math.random()*400)+10,(int) (Math.random()*500+10));
+      //f.registerPlayer(p, 1);
+   
+      
+      
+   
+      
+      q = new CatcherPlayer("Bunny El-Amin", 7, "reds", 'r', (int) (Math.random()*400)+410,(int) (Math.random()*500+10));
+      f.registerPlayer(q, 2);
+    
+   
+
+      
+      boolean gameRunning = true;
+    
+    long iterations = 0;
+    while( gameRunning ){
+      iterations += 1;
+   
+      /* allow players to think about what to do and change directions */
+      f.play();
+      
+      /* move all players */
+      f.update();
+      
+      /* redraw all the players in their new positions */
+      f.draw();
+      
+      
+      /* give some message to display on the field */
+      if(iterations < 1000) {
+        f.view.message("WINNN");
+      }else if(iterations < 10000){
+        f.view.message("WINN");
+      }else{
+        f.view.message("and going...");
+      }
+      
+      // uncomment this if game is moving too fast , sleep for 10 ms
+      //try{ Thread.sleep(10); } catch(Exception e) {}
+      
+      gameRunning = f.gameStillRunning();
+    }
+    
+    
+  }
+  
+}

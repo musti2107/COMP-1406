@@ -1,0 +1,26 @@
+/*
+Comp 1406 Summer 2014
+Name : Muhammad Mustafa
+id: 100823576	
+Date: 16th Aug 2014
+
+Post Project Summary
+
+*/
+
+1. The most challenging aspect was completeing the project within time with oter assignments and studying do complete. 
+   While also, making sure everything important is ticked off from the rubic list. 
+
+2. Having not worked with java prior to this course, and beig able to do a project with a team taught be time management and also
+   not to forget it taught me how java originally works. making classes, putting in conditions, extending classes creating logic, and then testing that 
+   same logic to what we imagined it to be. 
+
+3. My contribution was equally matched to the other members inthe team .Everyone gave their 100% to this project, from sleepless nights to early morning testings.
+   2 other members and myself specifically worked on the players and the field so our part very much imprtant and the project relied on our completion.
+
+4. Stanley - was efficient and wiling to learn what he did not understand and gave his 100%.
+   Ehsan - He did bulk of the typing and programming because of his skill of fast typing and grasping oncepts quick. He put in 100% as well.
+   Daihee - He was given the TEAM CLASS to complete on his own and presented us with one very well written and organized commenting on time.
+
+   For all the members in team, we have same courses next semester and have spoken to each other to work once again in a team as we gell very well together and back each other up good.
+   So definitely looking to work with them next semester!

@@ -1,0 +1,47 @@
+COMP1006/1406 ~ Summer 2014 ~ Grading Rubric
+--------------------------------------------
+
+Assignment 01 [20 Marks]
+========================
+
+
+Problem 0 [2 marks]
+-------------------
+_1_/1  : correct file name of submission (assignment1.zip)
+_1_/1  : correct file type of submission (zip)
+
+
+Problem 1 [3 marks]
+-------------------
+_1_/1 : program compiles and executes without error
+_1_/1 : boolean is set to true
+_1_/1 : name is set to student's name
+
+
+Problem 3 [10 marks]
+--------------------
+Style {5 marks}
+_1_/1  : header comments    0/0.5/1 for none, partial, full comments
+_1_/1  : function comments  0/0.5/1 for none, partial, full comments
+_1_/1  : proper indentation 0/0.5/1 for none, inconsistent, correct
+_1_/1  : proper whitespace  0/0.5/1 for none-too much/inconsistent but ok/good
+_1_/1  : names and other comments 0/0.5/1 poor names-no comments/one good/both good 
+
+
+Correctness {5 marks}
+Based on passing a collection of test cases.
+_1_/1  : extremal boundary cases
+_1_/1  : boundary cases
+_1_/1  : typical correctness
+_2_/2  : special cases
+
+
+
+Problem 4 [5 marks]
+-------------------
+_1_/1  : part (a) 0/0.5/1 incorrect/incorrect but close with work/correct 
+_1_/1  : part (b) 0/1 incorrect/correct
+_3_/3  : part (c) 0.5 mark for each different test case with explanation
+                 0.5 mark for each explanation of the test cases
+
+				 

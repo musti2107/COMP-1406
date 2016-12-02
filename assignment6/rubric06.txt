@@ -1,0 +1,54 @@
+total :  45-47/50 
+
+
+COMP1006/1406 ~ Summer 2014 ~ Grading Rubric
+--------------------------------------------
+
+Assignment 05 [50 Marks]
+========================
+
+
+Problem 0 [0 marks]
+-------------------
+rubric06.txt
+
+
+Problem 1 [25 marks]
+-------------------
+Correctness {25 marks}
+Note: testing some methods will rely on other methods working properly.
+  5/5  : SmallestPositionPlayer
+  5/5  : RandomPlayer
+  5/5  : FixedPlayer
+  5/5  : DefensivePlayer
+  3/5  : CleverPlayer
+  
+  
+Problem 2 [5 marks]
+--------------------
+Style {2 marks}
+   1/1  : Concise and easy to read
+   1/1  : Good grammar and sentence structure (no spelling mistakes)
+   
+Content {3 marks} 
+   1/1  : good aspect of using subclassing for players
+   1/1  : bad aspect of using subclassing for players
+   1/1  : another good or bad aspect of using subclassing for players
+   
+
+Problem 3 [5 marks]
+--------------------
+Correctness {5 marks}
+Note: we are testing here for exact string output.  Each whitespace character
+(including newline '\n' matters)
+   1/1  : empty grid (just the grid lines)
+   1/1  : single symbol (X or Y) in grid
+   2/3  : multiple symbols
+
+   
+Problem 4 [15 marks]   
+---------------------
+Definitions {15 marks}
+   7.5/7.5  : 0.5 for each relevant word/phrase, up to 7.5 marks
+   7.5/7.5  : 0.5 for each correct definition, up to 7.5 marks
+   

@@ -1,0 +1,51 @@
+/**
+ COMP1006/1406 - Summer 2014
+ Assignment 1, Problem 4
+
+ name:Muhammad Mustafa
+   id:100823576
+ date:08/07/2014
+
+Using the computeGrade() in Grades class from Problem 3 we answered questions regarding
+a) different valid inputs.
+b) differnt outputs.
+c) 3 different different black box testing cases.
+/**
+
+answers:
+
+a) As we ca obtain maximum marks of:
+   Assignments = 32/30 (2 bonus marks) {32 valid inputs}
+   Project     = 8/5   (3 bonus marks) {8 valid inputs}
+   Tutorials   = 10/10                 {10 valid inputs}
+   Quizzes     = 5/5                   {5 valid inputs}
+   Midterm     = 15/15                 {15 valid inputs}
+   Final Exam  = 35/35                 {35 valid inputs}
+
+therfore altogther we have a combination of 105 valid inputs.
+
+b) Our marks can only range from a 0 to 100, even with respect to 5 bonus marks.
+   therefore:
+   
+   i) 100 valid outputs with respect to Final Grade.
+  ii) Error message if 6 arguments are not met.
+
+Hence, altogether we have a cobination of 101 valid putputs. 
+
+c) These black box tests were done on DrJava:
+
+/* This is testing for extreme cases, taking full marks including bonus to check if 100 is the only output produced. */
+> run Grades 32 8 10 5 15 35 (input)
+Your Final Grade is: 100     (output)
+same
+
+/* This was test if grades is at boundary of midterm + final_Grade = 25
+> run Grades 14 3 8 5 10 15
+Your Final Grade is: 55
+same
+
+/* This is to test in case of midterm + final_Grade < 25 then it picks the minimum of input values. */
+> run Grades 5 5 5 5 5 10 (input)
+Your Final Grade is: 30   (output)
+same
+> 

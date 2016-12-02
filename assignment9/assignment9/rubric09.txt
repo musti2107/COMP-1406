@@ -1,0 +1,44 @@
+/** 
+ COMP1006/1406 - Summer 2014
+ Assignment 9, Problem 1
+ 
+ names: Daihee Kim || Muhammad Mustafa || Stanley Mbah Mbanwi || Malik Ehsanullah
+ IDs:   100896156  || 100823576        || 100949700           || 100833433
+ date: 08/11/2014
+ 
+ Updated Entity class
+ */
+
+total : 30/30 
+
+
+COMP1006/1406 ~ Summer 2014 ~ Grading Rubric
+--------------------------------------------
+
+Assignment 09 [20 Marks]
+========================
+
+
+Problem 0 [0 marks]
+-------------------
+rubric09.txt
+
+
+Problem 1 [10 marks]
+-------------------
+Correctness {10 marks}
+  5/5  : correct changes to entity class
+  5/5  : correct exception
+  
+  
+Problem 2 [20 marks]
+--------------------
+Style {5 marks}
+  3/3  : comments in Field.update method and in any new methods you create
+  2/2  : reusing code when appropriate
+
+Correctness {15 marks}
+  4/4  : handles players from territory 1 correctly
+  4/4  : handles players from territory 2 correctly
+  4/4  : handles flags, bases, jails correctly
+  3/3  : printing to standard error correctly 

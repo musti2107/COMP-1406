@@ -1,0 +1,71 @@
+
+total :   48-50/50 
+
+
+COMP1006/1406 ~ Summer 2014 ~ Grading Rubric
+--------------------------------------------
+
+Assignment 04 [510 Marks]
+========================
+
+
+Problem 0 [0 marks]
+-------------------
+rubric03.txt
+
+
+Problem 1 [20 marks]
+-------------------
+Style & Design {5 marks}
+   1/1  : header comments 0/0.5/1 for none, partial, full
+   1/1  : good use of whitespace and indentation 
+   1/1  : code reuse (updating asking price for example)
+   1/1  : good/meaningful attribute/variable/method names
+   1/1  : proper use of encapsulation (information hiding)
+
+Correctness {15 marks}
+Note: testing some methods relies on other methods working properly.
+  
+  1/1  : constructors
+  1/1  : toString
+  1/1  : getAddress
+  1/1  : getAskingPrice
+  1/1  : getSquareFeet
+  1/1  : getFeatures
+  1/1  : isSold
+  1/1  : updateAskingPrice
+  1/2  : addFeatures
+  3/3  : makeOffer
+  
+  
+Problem 2 [20 marks]
+--------------------
+Style & Design {5 marks}
+   1/1  : header comments 0/0.5/1 for none, partial, full
+   1/1  : good use of whitespace and indentation 
+   1/1  : good use of inline comments to help the reader follow the code
+   1/1  : good/meaningful attribute/variable/method names
+   1/1  : proper use of encapsulation (information hiding)
+
+Correctness {15 marks}
+Note: testing some methods relies on other methods working properly.
+  
+   1/1  : constructors
+   1/1  : getAllHouses()
+   2/2  : getHouses()
+   2/2  : getHouses(long lowerPriceRange, long upperPriceRange)
+   2/2  : getHouses(long sqFeet)
+   2/2  : getHouses(String feature)
+   3/3  : getAddresses()
+   2/2  : addHouse(House newHouse)
+
+
+Problem 3 [10 marks]
+--------------------
+   2/2  : part (a) for describing the state throughout the solution
+   2/2  : part (b) for description of solution
+   1/1  : part (b) for description of the state throughout the solution
+   1/1  : part (b) for correct number of pop operations (work must be shown)
+   2/2  : part (c) for description of solution
+   1/1  : part (c) for description of the state throughout the solution
+   1/1  : part (c) for correct number of pop operations (work must be shown)

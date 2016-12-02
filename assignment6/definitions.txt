@@ -1,0 +1,123 @@
+=== Black Box Testing ===
+It is a method of testing in which we have no access of data structuring, trhe algorithm involved nor can we see the actual code involved. 
+
+=== White Box Testing ===
+Its where we are aware of the knowledge of the data structuring while testing also we know the details of the algorithm used and the actual code present. 
+
+=== Access Modifiers === 
+An access modifier is a permission setting for our attributes and methods so that they will be visible/modifiable/usable from some places in our code but not from other places.
+(Private/Protected/Public)
+
+=== Non-access Modifiers ===
+Allows a method to be called without creating an instance of a class. 
+
+=== Primitive Data ===
+represents a single simple p[iece of information. 
+
+=== Object ===
+represents multiple pieces of information that are grouped together. It is an instantiation of a class, 
+It holds STATE of an object anf operation built within it 'BEHAVIOR'. 
+
+=== Class === 
+It specifies what sort of data can be stored. It also defines the operations on that data. 
+It can have its own functionality. 
+
+=== Data Type === 
+It is a det of values and a set of operations defined on those values. 
+
+=== Procedural Programming ===
+A sequence of precedural methods that modify the state of the data. 
+Each procedure does one thing. 
+
+=== Modular Programming ===
+Breaking up programming into multiple modules (classes). 
+Individual functionality. 
+
+=== Object Oriented Programming ===
+A collection of interacting objects. Objects have both states and behaviour. 
+Involves Encapsulation, Inheritence, Polymorphism. 
+
+===  Static Area === 
+Area of the memory that is used by the global and static variables that are defined by out program. 
+It is fixed and does not change as the program runs. 
+
+=== Free Memory ===
+Memory that is not currently being used by our program. 
+
+=== Stack ===
+Memory used to store local variables. 
+
+=== Heap ===
+Memory that stores all objects that we create. 
+
+=== Object Constructors ===
+It is a chunk of code that we write in our classes,
+that will allow is to hide disturbance of setting all the initial values for our objects each time we use them. 
+
+=== Overloading ===
+Two methods in the same class with the same name, 
+this is called overloading. Overloading is only allowed if the similar-named methods have a different set of parameters.
+
+=== Instance Methods ===
+Represent behaviors (functions and procedures) that are to be performed on the particular object,
+that we called the method for (i.e., the receiver of the method). 
+
+=== Class Methods ===
+Represent behaviors (functions and procedures) that are performed on a class.
+
+=== Encapsulation ===
+Involves enclosing an object with a kind of protection so that it cannot be accessed or modified without proper permission.
+
+=== Inheritance ===
+It is the act of receiving shared attributes and behavior from more general types of objects up the hierarchy.
+
+=== Concrete Class ===
+It is a class in JAVA that we can make instances of directly by using the new keyword. 
+
+=== Abstract Class === 
+It is a class for which we cannot create instances. Valid reference data type. Method declaration and definitions defines identity of children.
+Class extends 0, 1 abstaract class. All subclasses are related. 
+
+=== Abstract Method === 
+It is a  method with no code for which all concrete subclasses are forced to implement the method.
+
+=== Interface ===
+It is a specification (i.e., a list) of a set of methods such that any classes 
+implementing the interface are forced to write these methods. Class implements n>=0 interfaces.
+Independent classes implement same interface. 
+
+=== Polymorphism === 
+It is the ability to use the same behavior for objects of different types. 
+
+=== Astract data type (ADT) ===
+It is a mathematical model for a certain class of data structures that have similar behavior.
+
+=== List ADT ===
+It is an abstract data type that implements an ordered collection of values, 
+where the same value may occur more than once. 
+
+=== Stack ADT ===
+ordered collection of data (top is the last item added )
+· push (add an element to the top)
+· pop (remove top element)
+Last In First Out (LIFO)
+· peek (look at the top)
+· isEmpty (is the stack empty)
+
+=== Que ADT === 
+It is an abstract data type that stores elements in a first-in-first-out order.
+Elements are added at one end and removed from the other. 
+. Priority que - a queue in which removal is based on a priority. Highest priority item removed first. 
+. Deque - a double-ended queue. Allows arbitrary adding/removing from front and back.
+
+=== Set ADT === 
+An unordered collection of data that does not allow duplicate elements to be added. 
+
+=== Map/Dictionary ADT ===
+ADT that stores a collection of unique keys and their associated values. 
+Each key is associated with a single value or a set of values. 
+Mutable keys are dangerous. Some maps have order and some do not.
+
+=== Generic ===
+Allows us to create methods that use/input/return any data type (non-primitive).
+

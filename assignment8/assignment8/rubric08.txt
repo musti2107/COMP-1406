@@ -1,0 +1,61 @@
+total :   /40 
+
+
+COMP1006/1406 ~ Summer 2014 ~ Grading Rubric
+--------------------------------------------
+
+Assignment 08 [40 Marks]
+========================
+
+
+Problem 0 [0 marks]
+-------------------
+rubric08.txt
+
+
+Problem 1 (StoppingPlayer) [5 marks]
+-------------------
+Correctness {5 marks}
+  1/1  : player(s) stops at top boundary
+  1/1  : player(s) stops at bottom
+  1/1  : player(s) stops at left boundary
+  1/1  : player(s) stops at right boundary
+  1/1  : player(s) starts with initial random direction 
+  
+  
+
+Problem 2 (SeekerPlayer) [5 marks]
+--------------------
+Correctness {5 marks}
+  1/1  : team 2 player goes to and stops at flag 1 (fixed location)
+  1/1  : team 1 player goes to and stops at flag 1 (fixed location)
+  1/1  : team 2 player goes to and stops at flag 1 (moving location)
+  1/1  : team 1 player goes to and stops at flag 1 (moving location)
+  1/1  : many players all converge to flag 1
+
+
+Problem 3 (RandomWalkerPlayer) [5 marks]
+--------------------
+Correctness {5 marks}
+  4/4  : player(s) bounce of field boundaries
+  1/1  : players bounce off correctly (just as a ball bounces against a wall)
+
+
+
+Problem 4 (ChaserPlayer) [5 marks]
+--------------------
+Correctness {5 marks}
+  1/1  : player goes to and stops at a fixed-position RandomWalkerPlayer
+  2/2  : player chases moving RandomWalkerPlayer 
+  1/1  : player chases moving RandomWalkerPlayer when there are many on he field
+  1/1  : player ignores non RandomWalkerPlayers
+
+
+
+Problem 5 (CatcherPlayer) [15 marks]
+--------------------
+Correctness {15 marks}
+  4/4  : player chases an opposing player
+  2/2  : player stops chasing a player once it catches them
+  4/4  : player ignores teammates on the field
+  5/5  : player chases a different opposing player after catching one 

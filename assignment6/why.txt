@@ -1,0 +1,11 @@
+GOOD ASPECTS:
+
+# You want to share code among several closely related classes.
+# You expect that classes that extend your abstract class have many common methods or fields, or require access modifiers other than public (such as protected and private).
+# You want to declare non-static or non-final fields. This enables you to define methods that can access and modify the state of the object to which they belong.
+
+
+BAD ASPECTS:
+
+# A disadvantage is that they require more thinking to find the common method names and properties that all subclasses will inherit.
+# Also, because abstract classes only have the method headers but no method bodies, it is impossible to create an instance of that class.
